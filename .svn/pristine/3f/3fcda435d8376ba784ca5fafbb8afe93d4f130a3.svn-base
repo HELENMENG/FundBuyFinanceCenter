@@ -1,0 +1,36 @@
+//
+//  FBSDkObject.m
+//  FundBuyFinanceCenter
+//
+//  Created by Darwin on 15/8/4.
+//  Copyright (c) 2015年 Darwin. All rights reserved.
+//
+
+#import "FBSDkObject.h"
+
+@implementation DXMember
+-(id)initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error{
+    self = [super init];
+    if (self) {
+        self.mobilePhone = [dictionaryValue objectForKey:@"mobilePhone"];
+        self.nickname = [dictionaryValue objectForKey:@"nickname"];
+        self.token = [dictionaryValue objectForKey:@"token"];
+        self.weChat = [dictionaryValue objectForKey:@"weChat"];
+        self.userId = [[dictionaryValue objectForKey:@"userId"] integerValue];
+        self.userType = [[dictionaryValue objectForKey:@"userType"] integerValue];
+        
+        
+    }
+    return self;
+}
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+             @"mobilePhone": @"mobilePhone",
+             @"nickname": @"nickname",
+             @"token": @"token",
+             @"weChat": @"weChat",
+             @"userId": @"userId",
+             @"userType": @"userType",
+             };
+}
+@end

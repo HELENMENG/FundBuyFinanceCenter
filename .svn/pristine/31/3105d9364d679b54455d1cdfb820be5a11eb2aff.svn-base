@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EquipmentData" syncable="YES">
+        <attribute name="equipmentLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="equipmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="player" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlayerData" inverseName="equipments" inverseEntity="PlayerData" syncable="YES"/>
+    </entity>
+    <entity name="FBMember" syncable="YES">
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PlayerData">
+        <attribute name="isBindPlayer" optional="YES" attributeType="Boolean">
+            <userInfo/>
+        </attribute>
+        <attribute name="playerIconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saveDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverTag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="equipments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EquipmentData" inverseName="player" inverseEntity="EquipmentData" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="EquipmentData" positionX="540" positionY="135" width="128" height="88"/>
+        <element name="PlayerData" positionX="261" positionY="189" width="128" height="133"/>
+        <element name="FBMember" positionX="405" positionY="216" width="128" height="88"/>
+    </elements>
+</model>

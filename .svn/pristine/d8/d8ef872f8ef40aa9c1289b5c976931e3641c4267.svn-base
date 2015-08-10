@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'YTKNetwork'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'RKNotificationHub'
+pod 'JXBAdPageView'
+pod 'Mantle', '~> 1.5'
+pod 'SDWebImage', '~>3.7'
+

@@ -1,0 +1,69 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.6.1)
+  - JXBAdPageView (1.2)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
+  - Masonry (0.6.2)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (2.5.5)
+  - MJRefresh (2.3.2)
+  - RKNotificationHub (2.0.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - YTKNetwork (0.5.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - DZNEmptyDataSet
+  - JXBAdPageView
+  - Mantle
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension
+  - MJRefresh
+  - RKNotificationHub
+  - SDWebImage (~> 3.7)
+  - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  DZNEmptyDataSet: 3d31c27758230f03c71199f8c522bcfa99fba16c
+  JXBAdPageView: cfed536f407f9c8036b1866edd14abda5c18911b
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: fa526531d00a7c88771bf72e626bb49fb9292b9c
+  MJRefresh: 0f6f5e8387970607c26080b44058b229a23065d7
+  RKNotificationHub: d80905a948c79c11673345f807133a0bfd17e320
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
+
+COCOAPODS: 0.38.2

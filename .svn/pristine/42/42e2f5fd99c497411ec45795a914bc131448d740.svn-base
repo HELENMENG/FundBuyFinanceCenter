@@ -1,0 +1,26 @@
+//
+//  FBSDkObject.h
+//  FundBuyFinanceCenter
+//
+//  Created by Darwin on 15/8/4.
+//  Copyright (c) 2015年 Darwin. All rights reserved.
+//
+
+@interface DXMember : MTLModel<MTLJSONSerializing>
+{
+    NSString *_mobilePhone;
+    NSString *_nickname;//用户昵称
+    NSString *_token;
+    NSInteger _userId;
+    NSInteger _userType;
+    
+    NSString *_weChat;
+    
+}
+@property(nonatomic,strong) NSString * mobilePhone;
+@property (nonatomic,strong) NSString *nickname;
+@property (nonatomic,strong)NSString *token;//用户昵称
+@property(nonatomic,assign)NSInteger userId;
+@property(nonatomic,assign)NSInteger userType;
+@property (nonatomic,strong)NSString *weChat;
+@end
