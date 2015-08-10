@@ -88,6 +88,7 @@
 		D6D051041B78506A00D689F6 /* TLAttributedLabelUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAttributedLabelUtils.m; sourceTree = "<group>"; };
 		D6D051051B78506A00D689F6 /* TLDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDisplayView.h; sourceTree = "<group>"; };
 		D6D051061B78506A00D689F6 /* TLDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDisplayView.m; sourceTree = "<group>"; };
+		D6D0510C1B7884F400D689F6 /* FBConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConstant.h; sourceTree = "<group>"; };
 		D6E2006D1B70882500095EC9 /* FBSDkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDkObject.h; sourceTree = "<group>"; };
 		D6E2006E1B70882500095EC9 /* FBSDkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDkObject.m; sourceTree = "<group>"; };
 		D6E200711B708F4400095EC9 /* FBPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPersistence.h; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 				D67F4C881B747CBB006B3D23 /* FBCategory.m */,
 				D6D050FB1B7847F900D689F6 /* HeloPortal.h */,
 				D6D050FC1B7847F900D689F6 /* HeloPortal.m */,
+				D6D0510C1B7884F400D689F6 /* FBConstant.h */,
 			);
 			path = FBDataShare;
 			sourceTree = "<group>";
@@ -178,6 +180,7 @@
 		D6A118221B6F5CBF002F3423 /* FundBuyFinanceCenter */ = {
 			isa = PBXGroup;
 			children = (
+				D6D0510B1B787ED800D689F6 /* FBClass */,
 				D67F4C8A1B748097006B3D23 /* FBControl */,
 				D67F4C861B747C99006B3D23 /* FBDataShare */,
 				D67F4C811B745DB3006B3D23 /* FBImage */,
@@ -238,6 +241,13 @@
 				D6D051061B78506A00D689F6 /* TLDisplayView.m */,
 			);
 			path = TLCoreTextMore;
+			sourceTree = "<group>";
+		};
+		D6D0510B1B787ED800D689F6 /* FBClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FBClass;
 			sourceTree = "<group>";
 		};
 		D6E2006C1B7087EA00095EC9 /* FBSdk */ = {

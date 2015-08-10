@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF4357B7-266F-4BAD-B5AF-36E50DAACEF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FundBuyFinanceCenter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADE59DEE1165EFC3DF568775B28E96351DF103FF</key>
+		<string>https://github.com/HELENMENG/FundBuyFinanceCenter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FundBuyFinanceCenter.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADE59DEE1165EFC3DF568775B28E96351DF103FF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>ADE59DEE1165EFC3DF568775B28E96351DF103FF</key>
+		<string>svn://10.0.0.22</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://10.0.0.22/ios/FundBuyFinanceCenter/FundBuyFinanceCenter.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADE59DEE1165EFC3DF568775B28E96351DF103FF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADE59DEE1165EFC3DF568775B28E96351DF103FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FundBuyFinanceCenter</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADE59DEE1165EFC3DF568775B28E96351DF103FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FundBuyFinanceCenter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
